@@ -1,0 +1,992 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2068152400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chrome browser and hit url",
+            "match": {
+              "location": "FbStep.to_launch_the_chrome_browser_and_hit_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-02T09:23:05.207Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3774129000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bfscenario()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "To validate emailfield and passwordfield",
+        "description": "",
+        "id": "to-validate-login-functionality-of-facebook-application;to-validate-emailfield-and-passwordfield",
+        "after": [
+          {
+            "result": {
+              "duration": 401142200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afscenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 396516800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To pass the valid emailid in emailfield",
+            "match": {
+              "location": "FbStep.to_pass_the_valid_emailid_in_emailfield(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email1",
+                  "abc@gamil.com"
+                ]
+              },
+              {
+                "cells": [
+                  "email2",
+                  "def@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "email3",
+                  "ghi@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "email4",
+                  "jkl@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 365910500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To pass the valid password in passwordfield",
+            "match": {
+              "location": "FbStep.to_pass_the_valid_password_in_passwordfield(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "pass1",
+                  "pass2",
+                  "pass3"
+                ]
+              },
+              {
+                "cells": [
+                  "dsdf",
+                  "lkjhg",
+                  "987"
+                ]
+              },
+              {
+                "cells": [
+                  "qwdf",
+                  "nbgf",
+                  "123"
+                ]
+              },
+              {
+                "cells": [
+                  "bhy",
+                  "edhj",
+                  "5678"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140898900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "To click the login button",
+            "match": {
+              "location": "FbStep.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 644100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "To close the chrome browser",
+            "match": {
+              "location": "FbStep.to_close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature1"
+          },
+          {
+            "name": "@feature2"
+          },
+          {
+            "name": "@static"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1960157900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chrome browser and hit url",
+            "match": {
+              "location": "FbStep.to_launch_the_chrome_browser_and_hit_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-02T09:23:12.420Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2556939100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bfscenario()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "To validate emailfield,passwordfield positive and negative testcase",
+        "description": "",
+        "id": "to-validate-login-functionality-of-facebook-application;to-validate-emailfield-passwordfield-positive-and-negative-testcase;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 416026000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afscenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 203602300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "pass the valid  in\"java@gmail.com\"emailfield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"java@gmail.com\"",
+                  "offset": 18
+                }
+              ],
+              "location": "FbStep2.pass_the_valid_in_emailfield(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 257386100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "pass the valid  in \"\u003cpassword field\u003e\"passwordfield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cpassword field\u003e\"",
+                  "offset": 19
+                }
+              ],
+              "location": "FbStep2.pass_the_valid_in_passwordfield(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162373100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "click the login button",
+            "match": {
+              "location": "FbStep2.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 990500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "close the chrome browser",
+            "match": {
+              "location": "FbStep2.close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature1"
+          },
+          {
+            "name": "@feature2"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2096192000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chrome browser and hit url",
+            "match": {
+              "location": "FbStep.to_launch_the_chrome_browser_and_hit_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-02T09:23:17.991Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2539817400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bfscenario()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "To validate emailfield,passwordfield positive and negative testcase",
+        "description": "",
+        "id": "to-validate-login-functionality-of-facebook-application;to-validate-emailfield-passwordfield-positive-and-negative-testcase;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 450434900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afscenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 251781700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "pass the valid  in\"selenium@gmail.com\"emailfield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"selenium@gmail.com\"",
+                  "offset": 18
+                }
+              ],
+              "location": "FbStep2.pass_the_valid_in_emailfield(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 231316900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "pass the valid  in \"\u003cpassword field\u003e\"passwordfield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cpassword field\u003e\"",
+                  "offset": 19
+                }
+              ],
+              "location": "FbStep2.pass_the_valid_in_passwordfield(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 173066700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "click the login button",
+            "match": {
+              "location": "FbStep2.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 891200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "close the chrome browser",
+            "match": {
+              "location": "FbStep2.close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature1"
+          },
+          {
+            "name": "@feature2"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1707778700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chrome browser and hit url",
+            "match": {
+              "location": "FbStep.to_launch_the_chrome_browser_and_hit_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-02T09:23:23.739Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2490186200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bfscenario()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "To validate emailfield,passwordfield positive and negative testcase",
+        "description": "",
+        "id": "to-validate-login-functionality-of-facebook-application;to-validate-emailfield-passwordfield-positive-and-negative-testcase;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 424157500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afscenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 243716100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "pass the valid  in\"framework@gmail.com\"emailfield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"framework@gmail.com\"",
+                  "offset": 18
+                }
+              ],
+              "location": "FbStep2.pass_the_valid_in_emailfield(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 222880000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "pass the valid  in \"\u003cpassword field\u003e\"passwordfield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cpassword field\u003e\"",
+                  "offset": 19
+                }
+              ],
+              "location": "FbStep2.pass_the_valid_in_passwordfield(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155092400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "click the login button",
+            "match": {
+              "location": "FbStep2.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 667300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "close the chrome browser",
+            "match": {
+              "location": "FbStep2.close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature1"
+          },
+          {
+            "name": "@feature2"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2193278900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chrome browser and hit url",
+            "match": {
+              "location": "FbStep.to_launch_the_chrome_browser_and_hit_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-02T09:23:28.992Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2520386800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bfscenario()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "To validate emailfield,passwordfield positive and negative testcase",
+        "description": "",
+        "id": "to-validate-login-functionality-of-facebook-application;to-validate-emailfield-passwordfield-positive-and-negative-testcase;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 436254400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afscenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 257038500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "pass the valid  in\"sql@gmail.com\"emailfield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sql@gmail.com\"",
+                  "offset": 18
+                }
+              ],
+              "location": "FbStep2.pass_the_valid_in_emailfield(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 254999700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "pass the valid  in \"\u003cpassword field\u003e\"passwordfield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cpassword field\u003e\"",
+                  "offset": 19
+                }
+              ],
+              "location": "FbStep2.pass_the_valid_in_passwordfield(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161434400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "click the login button",
+            "match": {
+              "location": "FbStep2.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 717800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "close the chrome browser",
+            "match": {
+              "location": "FbStep2.close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature1"
+          },
+          {
+            "name": "@feature2"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate login functionality of Facebook application",
+    "description": "",
+    "id": "to-validate-login-functionality-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/01Fb.feature",
+    "tags": [
+      {
+        "name": "@feature1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@feature2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 11
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1741232000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "launch the  browser and hit url",
+            "match": {
+              "location": "Amazon1.launch_the_browser_and_hit_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-02T09:23:34.822Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2520464100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bfscenario()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "To validate invalidemail in emailfield and validpassword in passwordfield",
+        "description": "",
+        "id": "to-validate-login-functionality-of-amazon-application;to-validate-invalidemail-in-emailfield-and-validpassword-in-passwordfield",
+        "after": [
+          {
+            "result": {
+              "duration": 402237600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afscenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 939240600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "launch the  browser and hit url",
+            "match": {
+              "location": "Amazon1.launch_the_browser_and_hit_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027email\u0027]\"}\n  (Session info: chrome\u003d125.0.6422.78)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.20.0\u0027, revision: \u0027866c76ca80\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.21\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [823db0144011cd4527341bb7e45a4d1a, findElement {value\u003demail, using\u003dname}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.78, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Users\\Bharathi\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57776}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57776/devtoo..., se:cdpVersion: 125.0.6422.78, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 823db0144011cd4527341bb7e45a4d1a\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\r\n\tat org.step.Amazon1.pass_the_invalid_emailid_or_phonenum_in_emailfield(Amazon1.java:21)\r\n\tat ✽.pass the invalid emailid  or phonenum in emailfield(file:src/test/resources/FeatureFiles/02Amazon.feature:10)\r\n",
+              "duration": 46495300,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "pass the invalid emailid  or phonenum in emailfield",
+            "match": {
+              "location": "Amazon1.pass_the_invalid_emailid_or_phonenum_in_emailfield()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 320100,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "To click the continue button",
+            "match": {
+              "location": "Amazon1.to_click_the_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 286500,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "pass the valid password in passwordfield",
+            "match": {
+              "location": "Amazon1.pass_the_valid_password_in_passwordfield()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 297700,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "To click a sigin button",
+            "match": {
+              "location": "Amazon1.to_click_a_sigin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 413900,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "close the  browser",
+            "match": {
+              "location": "Amazon1.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature2"
+          },
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1917621800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "launch the  browser and hit url",
+            "match": {
+              "location": "Amazon1.launch_the_browser_and_hit_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-02T09:23:40.496Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2501325400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bfscenario()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "To validate validemail in emailfield and validpassword in passwordfield",
+        "description": "",
+        "id": "to-validate-login-functionality-of-amazon-application;to-validate-validemail-in-emailfield-and-validpassword-in-passwordfield",
+        "after": [
+          {
+            "result": {
+              "duration": 413259300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afscenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 818834600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "To launch the  browser and hit url",
+            "match": {
+              "location": "Amazon1.to_launch_the_browser_and_hit_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027email\u0027]\"}\n  (Session info: chrome\u003d125.0.6422.78)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.20.0\u0027, revision: \u0027866c76ca80\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.21\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f984f1c56a6852b1e691240c06333569, findElement {value\u003demail, using\u003dname}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.78, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\\Users\\Bharathi\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57813}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57813/devtoo..., se:cdpVersion: 125.0.6422.78, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: f984f1c56a6852b1e691240c06333569\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\r\n\tat org.step.Amazon1.pass_the_valid_emailid_or_phonenum_in_emailfield(Amazon1.java:52)\r\n\tat ✽.pass the valid emailid  or phonenum in emailfield(file:src/test/resources/FeatureFiles/02Amazon.feature:19)\r\n",
+              "duration": 17951300,
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "pass the valid emailid  or phonenum in emailfield",
+            "match": {
+              "location": "Amazon1.pass_the_valid_emailid_or_phonenum_in_emailfield()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 523700,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "click the continue button",
+            "match": {
+              "location": "Amazon1.click_the_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 343500,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "pass the invalid password in passwordfield",
+            "match": {
+              "location": "Amazon1.pass_the_invalid_password_in_passwordfield()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 283800,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "click a sigin button",
+            "match": {
+              "location": "Amazon1.click_a_sigin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 267200,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "close the  browser in amzon",
+            "match": {
+              "location": "Amazon1.close_the_browser_in_amzon()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature2"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate login functionality of Amazon application",
+    "description": "",
+    "id": "to-validate-login-functionality-of-amazon-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/02Amazon.feature",
+    "tags": [
+      {
+        "name": "@feature2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

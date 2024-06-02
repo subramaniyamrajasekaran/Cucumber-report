@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="40.949551">
+    <testcase classname="To validate login functionality of Facebook application" name="To validate emailfield and passwordfield" time="7.207959">
+        <system-out>
+            <![CDATA[Given To launch the chrome browser and hit url..............................passed
+When To pass the valid emailid in emailfield................................passed
+And To pass the valid password in passwordfield.............................passed
+And To click the login button...............................................passed
+Then To close the chrome browser............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To validate login functionality of Facebook application" name="To validate emailfield,passwordfield positive and negative testcase" time="5.567283">
+        <system-out>
+            <![CDATA[Given To launch the chrome browser and hit url..............................passed
+When pass the valid  in"java@gmail.com"emailfield...........................passed
+And pass the valid  in "<password field>"passwordfield......................passed
+And click the login button..................................................passed
+Then close the chrome browser...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To validate login functionality of Facebook application" name="To validate emailfield,passwordfield positive and negative testcase 2" time="5.748457">
+        <system-out>
+            <![CDATA[Given To launch the chrome browser and hit url..............................passed
+When pass the valid  in"selenium@gmail.com"emailfield.......................passed
+And pass the valid  in "<password field>"passwordfield......................passed
+And click the login button..................................................passed
+Then close the chrome browser...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To validate login functionality of Facebook application" name="To validate emailfield,passwordfield positive and negative testcase 3" time="5.250426">
+        <system-out>
+            <![CDATA[Given To launch the chrome browser and hit url..............................passed
+When pass the valid  in"framework@gmail.com"emailfield......................passed
+And pass the valid  in "<password field>"passwordfield......................passed
+And click the login button..................................................passed
+Then close the chrome browser...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To validate login functionality of Facebook application" name="To validate emailfield,passwordfield positive and negative testcase 4" time="5.830205">
+        <system-out>
+            <![CDATA[Given To launch the chrome browser and hit url..............................passed
+When pass the valid  in"sql@gmail.com"emailfield............................passed
+And pass the valid  in "<password field>"passwordfield......................passed
+And click the login button..................................................passed
+Then close the chrome browser...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To validate login functionality of Amazon application" name="To validate invalidemail in emailfield and validpassword in passwordfield" time="5.666928">
+        <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name='email']&quot;}&#10;  (Session info: chrome=125.0.6422.78)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: '4.20.0', revision: '866c76ca80'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [823db0144011cd4527341bb7e45a4d1a, findElement {value=email, using=name}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.78, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\Bharathi\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57776}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57776/devtoo..., se:cdpVersion: 125.0.6422.78, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 823db0144011cd4527341bb7e45a4d1a&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)&#13;&#10;&#9;at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)&#13;&#10;&#9;at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)&#13;&#10;&#9;at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)&#13;&#10;&#9;at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)&#13;&#10;&#9;at org.step.Amazon1.pass_the_invalid_emailid_or_phonenum_in_emailfield(Amazon1.java:21)&#13;&#10;&#9;at ✽.pass the invalid emailid  or phonenum in emailfield(file:src/test/resources/FeatureFiles/02Amazon.feature:10)&#13;&#10;">
+            <![CDATA[Given launch the  browser and hit url.......................................passed
+Given launch the  browser and hit url.......................................passed
+When pass the invalid emailid  or phonenum in emailfield....................failed
+And To click the continue button............................................skipped
+And pass the valid password in passwordfield................................skipped
+And To click a sigin button.................................................skipped
+Then close the  browser.....................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email']"}
+  (Session info: chrome=125.0.6422.78)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [823db0144011cd4527341bb7e45a4d1a, findElement {value=email, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.78, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\Bharathi\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57776}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57776/devtoo..., se:cdpVersion: 125.0.6422.78, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 823db0144011cd4527341bb7e45a4d1a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.step.Amazon1.pass_the_invalid_emailid_or_phonenum_in_emailfield(Amazon1.java:21)
+	at ✽.pass the invalid emailid  or phonenum in emailfield(file:src/test/resources/FeatureFiles/02Amazon.feature:10)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="To validate login functionality of Amazon application" name="To validate validemail in emailfield and validpassword in passwordfield" time="5.678293">
+        <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name='email']&quot;}&#10;  (Session info: chrome=125.0.6422.78)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: '4.20.0', revision: '866c76ca80'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [f984f1c56a6852b1e691240c06333569, findElement {value=email, using=name}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.78, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\Bharathi\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57813}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57813/devtoo..., se:cdpVersion: 125.0.6422.78, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f984f1c56a6852b1e691240c06333569&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)&#13;&#10;&#9;at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)&#13;&#10;&#9;at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)&#13;&#10;&#9;at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)&#13;&#10;&#9;at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)&#13;&#10;&#9;at org.step.Amazon1.pass_the_valid_emailid_or_phonenum_in_emailfield(Amazon1.java:52)&#13;&#10;&#9;at ✽.pass the valid emailid  or phonenum in emailfield(file:src/test/resources/FeatureFiles/02Amazon.feature:19)&#13;&#10;">
+            <![CDATA[Given launch the  browser and hit url.......................................passed
+Given To launch the  browser and hit url....................................passed
+When pass the valid emailid  or phonenum in emailfield......................failed
+And click the continue button...............................................skipped
+And pass the invalid password in passwordfield..............................skipped
+And click a sigin button....................................................skipped
+Then close the  browser in amzon............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email']"}
+  (Session info: chrome=125.0.6422.78)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f984f1c56a6852b1e691240c06333569, findElement {value=email, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.78, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\Bharathi\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57813}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57813/devtoo..., se:cdpVersion: 125.0.6422.78, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f984f1c56a6852b1e691240c06333569
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.step.Amazon1.pass_the_valid_emailid_or_phonenum_in_emailfield(Amazon1.java:52)
+	at ✽.pass the valid emailid  or phonenum in emailfield(file:src/test/resources/FeatureFiles/02Amazon.feature:19)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
